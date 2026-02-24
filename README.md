@@ -94,8 +94,3 @@ The script runs through Prefect when available and automatically falls back to l
 
 The pipeline writes a formatted Excel file to `PRODUCT_BESTAND_PATH` (configured in `pipeline/config.py`) and creates a dated archive copy in `PRODUCT_BESTAND_HISTORIE`.
 
-## Notes
-
-- This project is designed around internal source file structures and naming.
-- If an optional GA4 file is missing, the pipeline continues without GA metrics.
-- Output column order is locked to `FINAL_COLUMNS` in `pipeline/config.py` for reporting consistency.
